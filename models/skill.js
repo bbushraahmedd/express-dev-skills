@@ -7,19 +7,19 @@ const skills = [
     {
         skill: 'CSS',
         comfortLevel: 45,
-        done: true,
+        tried: true,
         id: 138992
     },
     {
         skill: 'Javascript',
         comfortLevel: 3,
-        done: true,
+        tried: false,
         id: 636759
     },
     {
-        skill: 'Flexibility',
+        skill: 'Flexibile',
         comfortLevel: 93,
-        done: true,
+        tried: true,
         id: 4292221
     }
   ];
