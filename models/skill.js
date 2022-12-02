@@ -6,28 +6,30 @@
 const skills = [
     {
         skill: 'CSS',
-        comfortLevel: 45,
         tried: true,
         id: 138992
     },
     {
         skill: 'Javascript',
-        comfortLevel: 3,
         tried: false,
         id: 636759
     },
     {
         skill: 'Flexibile',
-        comfortLevel: 93,
         tried: true,
         id: 4292221
     }
   ];
   
   module.exports = {
-    getAll
+    getAll,
+    getOne
   };
   
   function getAll() {
     return skills;
+  }
+
+  function getOne(id) {
+    return skills.find(skill => skill.id === parseInt(id));
   }
