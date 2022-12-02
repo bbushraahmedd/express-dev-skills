@@ -8,4 +8,7 @@ router.get('/', skillController.index);
 router.get('/new', skillController.new);
 router.get('/:id', skillController.show);
 
+/* POST routes. */
+router.post('/', skillController.create);
+
 module.exports = router;
