@@ -11,6 +11,9 @@ router.get('/:id', skillController.show);
 /* POST route. */
 router.post('/', skillController.create);
 
+// /* POST route. */
+// router.put('/:id', skillController.update);
+
 /* DELETE route. */
 router.delete('/:id', skillController.delete);
 
