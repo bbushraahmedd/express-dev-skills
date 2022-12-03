@@ -10,13 +10,13 @@
 <body>
     <h1>Edit A Skill</h1>
 
-    <form action="/skills" method="POST">
+    <form action="/skills/<%= skill.id %>?_method=PUT" method="POST">
         <input type="text" name="skill" value="<%= skill.skill %>">
         <input type="checkbox" 
         <% if (skill.tried) { %>
          checked
         <% } %>
-        >
+        name="tried">
         <button type="submit">Save Skill</button>
     </form>
 </body>

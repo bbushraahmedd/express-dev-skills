@@ -26,7 +26,7 @@ const skills = [
     getOne,
     create,
     deleteOne,
-    // updateOne
+    // updateOne 
   };
   
   function getAll() {

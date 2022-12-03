@@ -13,7 +13,7 @@ router.get('/:id/edit', skillController.edit);
 router.post('/', skillController.create);
 
 /* POST route. */
-// router.put('/:id', skillController.update);
+router.put('/:id', skillController.update);
 
 /* DELETE route. */
 router.delete('/:id', skillController.delete);
