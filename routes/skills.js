@@ -7,11 +7,12 @@ const skillController = require('../controllers/skills');
 router.get('/', skillController.index);
 router.get('/new', skillController.new);
 router.get('/:id', skillController.show);
+router.get('/:id/edit', skillController.edit);
 
 /* POST route. */
 router.post('/', skillController.create);
 
-// /* POST route. */
+/* POST route. */
 // router.put('/:id', skillController.update);
 
 /* DELETE route. */
